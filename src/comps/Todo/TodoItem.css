@@ -1,0 +1,52 @@
+.todo-item {
+    padding: 4px 5px;
+    margin: 5px 0px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.edit-input {
+    width: 60%;
+    border: 1px solid #E2D1F9;
+    border-radius: 5px;
+    padding: 1px 0px 1px 10px;
+    color: #317773;
+}
+
+.edit-input:focus {
+    outline: none;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+.delete {
+    font-size: 10px;
+    cursor: pointer;
+    color: #317773;
+    background-color: #E2D1F9;
+    border-radius: 3px;
+    border: none;
+}
+
+.delete:active {
+    transform: scale(.99);
+}
+
+.edit {
+    font-size: 10px;
+    cursor: pointer;
+    color: #317773;
+    background-color: #E2D1F9;
+    border-radius: 3px;
+    border: none;
+    margin-right: 5px;
+}
+
+.edit:active {
+    transform: scale(.99);
+}
